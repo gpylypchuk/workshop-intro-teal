@@ -8,6 +8,10 @@ This repository forms part of a introduction to development in [TEAL](https://de
 - [Explorer](https://app.dappflow.org/explorer/home)
 - [All of Algorand](https://awesomealgo.com/)
 
+This Repository is still under construction 👷‍
+
+Next weeks it will be upgrated to explain how to create your own AMM in PyTeal 😋
+
 # Teal 😵
 Below there are the steps to follow and test by yourself a smart signature.
 
