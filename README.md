@@ -5,6 +5,8 @@ This repository forms part of a introduction to development in [TEAL](https://de
 **Resources:**
 - [Simple Teal](https://developer.algorand.org/docs/get-details/dapps/smart-contracts/smartsigs/walkthrough/?from_query=smart%20sig#simple-teal-example) (From Algorand).
 - [AMM Repo](https://github.com/gpylypchuk/DeFi-AMM) (Mio).
+- [Explorer](https://app.dappflow.org/explorer/home)
+- [All of Algorand](https://awesomealgo.com/)
 
 # Teal 😵
 Below there are the steps to follow and test by yourself a smart signature.
@@ -59,3 +61,31 @@ goal clerk send -f YOUR_DELEGATED_ADDRESS -a 100000 -t ANOTHER_ADDRESS -L mydele
 You have sent a transaction by another delegated address!
 
 # Pyteal 🐍
+Here we will compile a contract in PyTeal
+
+## 1. Instalation
+Initialize your virtual environment (go to pyteal-contracts)
+```bash
+python3 -m venv venv
+source ./venv/bin/activate
+```
+
+### Install requirements
+To do this type:
+```bash
+pip install -r requirements.txt
+```
+
+## 2. Compile it ✨
+Easy!, now you can compile the sample contract typing
+
+```bash
+./build.sh contracts.counter.step_01
+```
+
+## Congratulations 🥳
+You have compiled it.
+
+So, you should have the approval.teal and clear.teal inside the folder `build`
+
+Now, you can use the steps we discuss before to interact with the Teal contract transpiled.
