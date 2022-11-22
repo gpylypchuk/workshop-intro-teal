@@ -10,7 +10,7 @@ This repository forms part of a introduction to development in [TEAL](https://de
 
 This Repository is still under construction 👷‍
 
-Next weeks it will be upgrated to explain how to create your own AMM in PyTeal 😋
+Next weeks it will be upgrated to explain how to create your own [AMM in PyTeal](https://github.com/dspytdao/Algo_AMM) 😋
 
 # Teal 😵
 Below there are the steps to follow and test by yourself a smart signature.
